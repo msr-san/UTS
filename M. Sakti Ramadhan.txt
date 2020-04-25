@@ -1,0 +1,104 @@
+﻿<html>
+<head>
+    <title>Form Input Pasien Covid-19</title>
+    <style type="text/css" media="screen">
+        table {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;}
+        input {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;height: 20px;}
+    </style>
+</head>
+<body>
+<div style="border:0; padding:10px; width:760px; height:auto;">
+<form action="utss.php" method="POST" name="form-input-data">
+    <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr height="46">
+                <td width="10%"> </td>
+                <td width="25%"> </td>
+                <td width="65%"><font color="orange" size="2">Form Input Pasien Covid-19</font></td>
+        </tr>
+		        <tr height="46">
+            <td> </td>
+            <td>Wilayah</td>
+            <td><select name="Wilayah">
+                    <option value="-">- Pilih Wilayah -
+                    <option value="DKI Jakarta">DKI Jakarta
+                    <option value="Jawa Barat">Jawa Barat
+                    <option value="Jawa Tengah">Jawa Tengah
+                    <option value="Banten">Banten
+                </select></td>
+        </tr>
+        <tr height="46">
+            <td> </td>
+            <td>Jumlah Positif</td>
+            <td><input type="text"  size="35" maxlength="6" /></td>
+        </tr>
+        <tr height="46">
+            <td> </td>
+            <td>Jumlah Dirawat</td>
+            <td><input type="text" name="nama" size="50" maxlength="30" /></td>
+        </tr>
+        <tr height="46">
+            <td> </td>
+            <td>Jumlah Sembuh</td>
+            <td><input type="text" name="alamat" size="50" maxlength="30" /></td>
+        </tr>
+        <tr height="46">
+            <td> </td>
+            <td>Jumlah Meninggal</td>
+            <td><input type="text" name="telepon" size="20" maxlength="12" /></td>
+        </tr>
+		<tr height="46">
+            <td> </td>
+            <td>Nama Operator</td>
+            <td><input type="text" name="telepon" size="20" maxlength="12" /></td>
+        </tr>
+		<tr height="46">
+            <td> </td>
+            <td>NIM</td>
+            <td><input type="text" name="telepon" size="20" maxlength="12" /></td>
+        </tr>
+        <tr height="46">
+            <td> </td>
+            <td> </td>
+            <td><input type="submit" name="Submit" value="Submit">   
+                <input type="reset" name="reset" value="Cancel"></td>
+        </tr>
+    </table>
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+	<title>Muhammad Sakti Ramadhan 2016140646</title>
+</head>
+<body>
+<P align="center">Data Pemantaun Covid19 wilayah DKI Jakarta"</p>
+<P align="center">Per 18 April 2020 21:38:16 (24 April 2020, 20.41 WIB.)</p>
+<P align="center"> Muhammad Sakti Ramadhan/2016140646</p>
+<input type="submit" name="submit" value="proses">
+					<table border="1">			
+		<tr>
+		<td width="10%"> Jumlah Positif</td>
+		<td width="10%"> Jumlah Dirawat</td>
+		<td width="10%"> Jumlah Sembuh</td>
+		<td width="10%"> Jumlah Meninggal</td>
+		
+		</tr>
+		
+		<tr>
+		<td>2902</td>
+		<td>1769</td>
+		<td>206</td>
+		<td>257</td>
+		
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
